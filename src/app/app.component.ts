@@ -13,15 +13,15 @@ export class AppComponent {
   length = 0;
 
   useLetters() {
-    this.includeLetters = true;
+    this.includeLetters = !this.includeLetters;
   }
 
   useNumbers() {
-    this.includeNumbers = true;
+    this.includeNumbers = !this.includeNumbers;
   }
 
   useSymbols() {
-    this.includeSymbols = true;
+    this.includeSymbols = !this.includeSymbols;
   }
 
   onButtonClick() {
